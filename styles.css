@@ -1,0 +1,59 @@
+.first {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 120vh;
+    background-color: rgb(60, 59, 59);
+    color: white;
+    margin-left: 190px;
+}
+.one{
+    display:inline-block;
+    flex-direction: column;
+    
+    
+}
+ .pic {
+    display: flex;
+   align-self: center;
+   margin-left: 80px;
+    
+}
+.steaks {
+    display: flex;
+    flex-basis: 50%;
+    gap: 10px;
+    justify-content: flex-end;
+    
+    
+}
+.title {
+    margin-left: 140px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 710px;
+    margin-bottom: 50px;
+
+}
+.text{
+    display: flex;
+    
+    
+}
+
+.words{
+    
+    flex-basis: 40%;
+    padding-left: 50px;
+    
+}
+.para { color: gray;
+
+}
+.button{
+    border: 20px;
+    background-color: lightblue;
+    padding: 20 20;
+    border-radius: 30px;
+    font-size: 15px;
+}
