@@ -57,3 +57,46 @@
     border-radius: 30px;
     font-size: 15px;
 }
+.second {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 120vh;
+    background-color: white(60, 59, 59);
+    color: black;
+    margin-left: 190px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.squares {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.square-1 {
+    height: 115px;
+    width: 100px;
+    
+}
+.square-2 {
+    height: 115px;
+    width: 100px;
+    
+}
+.square-3 {
+    height: 115px;
+    width: 100px;
+    
+}
+.square-4 {
+    height: 115px;
+    width: 100px;
+}
+.caption {
+    font-size: small;
+    
+}
