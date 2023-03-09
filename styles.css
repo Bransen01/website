@@ -57,6 +57,9 @@
     border-radius: 30px;
     font-size: 15px;
 }
+
+
+
 .second {
     display: flex;
     flex-direction: column;
@@ -99,4 +102,93 @@
 .caption {
     font-size: small;
     
+}
+
+
+.third {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 110vh;
+    background-color: #e5e7eb;
+    color: black;
+    margin-left: 190px;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 120vh;
+}
+.quote1 {
+    font-family:light italic ;
+    font-size: 15px;
+    flex-basis: 60%;
+}
+.credit {
+    display: flex;
+    font-weight:bold;
+    justify-content: flex-end;
+}
+
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    width: 80vh;
+    background-color: rgb(62, 127, 231);
+    color: white;
+    margin-left: 300px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 5px;
+    position: relative;
+}
+.four {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    font-size: smaller;
+    margin-left: 70px;
+    margin-top: 10px;
+    
+}
+.call {
+    margin-top: 0%;
+    font-size: small;
+}
+.eat {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.click {
+    height: 20px;
+    width: 60px;
+    font-size: xx-small;
+    background-color: rgb(62, 127, 231);
+   color: white;
+    
+}
+.clicker {
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    border: solid white 1px
+}
+
+.fifth {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    width: 120vh;
+    background-color: rgb(60, 59, 59);
+    color: white;
+    margin-left: 190px;
+}
+.five {
+    display: flex;
+    justify-content: center;
+    font-size: small;
 }
